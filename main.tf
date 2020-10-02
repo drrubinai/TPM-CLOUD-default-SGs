@@ -12,3 +12,12 @@
 terraform {
   required_version = ">= 0.12"
 }
+
+
+# ------------------------------------------------------------------------------
+# CONFIGURE OUR AWS CONNECTION for a particular region
+# ------------------------------------------------------------------------------
+
+provider "aws" {
+  region = "us-east-2"
+}
